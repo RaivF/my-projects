@@ -1,0 +1,48 @@
+.Container{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: gray;
+    border: 3px solid blue;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.resultContainer{
+    width: 630px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: gray;
+    border: 3px solid blue;
+    border-radius: 10px;
+}
+
+.buttonContainer{
+    width: 630px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: gray;
+    border: 3px solid blue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.settingsString{
+    display: flex;
+   justify-content: space-evenly;
+    align-items: center;
+}
+.settingsString p,input{
+    font-size: 30px;
+}
+
+
+
+.eror{
+    color: red;
+}

@@ -1,0 +1,37 @@
+.listItem{
+    width: 40vw;
+    min-height: 100px;
+    background-color: silver;
+    margin:10px auto ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+.num{
+margin-left: 50px;
+}
+.name{
+
+}
+.rating{
+
+}
+.status{
+
+}
+.placeButton{
+    margin-right: 40px;
+    width: 46px;
+    height: 39px;
+}
+.buttonForDel{
+    display: none;
+}
+.buttonForDelActive{
+    display: block;
+}
+.listItem img{
+    width: 30px;
+}

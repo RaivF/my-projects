@@ -1,0 +1,49 @@
+.listItemActive{
+    width: 40vw;
+    min-height: 100px;
+    background-color: silver;
+    margin:10px auto ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.listItem{
+    display: none;
+}
+.listItemActive input{
+    width: 200px;
+    height: 30px;
+}
+.num{
+    margin-left: 50px;
+}
+.name{
+    margin-left: 50px;
+}
+.rating {
+
+}
+.status{
+
+}
+.placeButton{
+    margin-right: 40px;
+    width: 46px;
+    height: 39px;
+}
+.buttonForDel{
+
+    display: none;
+}
+.buttonForDelActive{
+
+    display: block;
+}
+.listItemActive img{
+    width: 30px;
+}
+.eror{
+    border: 3px solid red;
+}

@@ -1,0 +1,23 @@
+.header {
+    width: 100vw;
+    height: 100px;
+    background-color: silver;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    margin-top: -500px;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+}
+
+.iconLoupe img {
+    width: 31px;
+}
+
+.editMode {
+
+}
